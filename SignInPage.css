@@ -1,0 +1,91 @@
+
+        * {
+	margin: 0;
+	/* padding: 0;
+	box-sizing: border-box; */
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(154, 226, 255);
+	z-index: 1;
+	background-image: url("//wallpapercave.com/wp/wp2120757.jpg");
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	margin: 50px auto;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.297);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	width: 400px;
+	z-index: 1;
+	float: right;
+	margin-right: 80px;
+}
+.container:hover{
+    background-color: white;
+	
+}
+
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	z-index: 1;
+}
+
+form {
+	display: grid;
+	
+}
+
+label {
+	margin-bottom: 5px;
+	z-index: 1;
+}
+
+input[type="text"],
+input[type="password"]{
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+input[type="submit"] {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+
+input[type="submit"]:hover {
+	background-color:palegreen;
+	z-index: 1;
+}
+
+    
+.form-inline button{
+	border-radius: 40px;
+	color: black;
+	background-color: lightcyan;
+}
+.refs{
+	display: inline-block;
+	cursor: pointer;
+}
